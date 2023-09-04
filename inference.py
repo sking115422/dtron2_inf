@@ -166,16 +166,19 @@ def createDataDict (fn, outputs):
 master_dict = []
 
 for img_path in img_path_list:
-	img = cv2.imread(img_in_dir + img_path)
-	outputs = predictor(img)
-	print(outputs)
-	data_dict = createDataDict(img_in_dir + img_path, outputs)
-	vis = Visualizer(img[:, :, ::-1], scale=1)
-	out = vis.draw_dataset_dict(data_dict)
-	cv2.imwrite("./img_out/"+img_path, out.get_image()[:, :, ::-1])
-	master_dict.append(data_dict)
-	with open("./results/data_dict.json", "w+") as f:
-		f.write(json.dumps(master_dict))
+    img = cv2.imread(img_in_dir + img_path)
+    outputs = predictor(img)
+    if outputs["instances"].__len__() > 0:
+        print(outputs)
+        data_dict = createDataDict(img_in_dir + img_path, outputs)
+        vis = Visualizer(img[:, :, ::-1], scale=1)
+        out = vis.draw_dataset_dict(data_dict)
+        cv2.imwrite("./img_out/"+img_path, out.get_image()[:, :, ::-1])
+        master_dict.append(data_dict)
+        with open("./results/data_dict.json", "w+") as f:
+            f.write(json.dumps(master_dict))
+    else:
+        print("model inference has detected no elements of interest... so img will be skipped.")
 
     
 
