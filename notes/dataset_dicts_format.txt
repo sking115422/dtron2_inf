@@ -1,0 +1,26 @@
+{
+    'file_name': './coco_prelab_743_n_split/test/images/./iiADeKfRO1v1xinH-rigzone_ss.png',
+    'height': 1080, 
+    'width': 1920, 
+    'image_id': 594, 
+    'annotations': 
+    [
+        {'iscrowd': 0, 'bbox': [50, 4, 133, 29], 'category_id': 16, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1723, 6, 58, 62], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1779, 4, 41, 61], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1816, 6, 51, 51], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1865, 9, 43, 56], 'category_id': 15, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1868, 158, 50, 41], 'category_id': 25, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [6, 151, 1861, 46], 'category_id': 26, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1, 0, 43, 46], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [14, 765, 167, 38], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [22, 857, 145, 32], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [12, 902, 1900, 38], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [12, 962, 1849, 40], 'category_id': 26, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1865, 965, 43, 40], 'category_id': 25, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1889, 1047, 30, 27], 'category_id': 8, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1029, 1042, 129, 29], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [1, 1042, 1918, 37], 'category_id': 4, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}, 
+        {'iscrowd': 0, 'bbox': [4, 211, 1908, 40], 'category_id': 12, 'bbox_mode': <BoxMode.XYWH_ABS: 1>}
+    ]
+ }
