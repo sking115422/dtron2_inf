@@ -98,7 +98,7 @@ import os
 ##################################################################################
 
 img_out_dir = "./img_out/"
-img_in_dir = "./test_inf_imgs/"
+img_in_dir = "./inf_imgs/"
 results_dir = "./results"
 
 if not os.path.exists(img_out_dir):
