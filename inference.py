@@ -114,7 +114,7 @@ print ("model inference started...")
 
 cfg = get_cfg()
 cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"))
-cfg.MODEL.WEIGHTS = os.path.join("./model_pth/", "model_final.pth")
+cfg.MODEL.WEIGHTS = os.path.join("./model_pth/", "model_final_743_og.pth")
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 32 + 1 #your number of classes + 1
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.25
 predictor = DefaultPredictor(cfg)
